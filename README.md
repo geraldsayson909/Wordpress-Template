@@ -1,1 +1,1 @@
-# Wprdpress-Template
+# Wordpress-Template
