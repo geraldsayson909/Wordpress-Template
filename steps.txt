@@ -1,0 +1,42 @@
+--- Git Repository Guide ---
+A. Set up your local machine for git config and ssh connection
+	1. Set git config (For author or Identification of user)
+		- git config --global user.email "youremailaddress"
+		- git config --global user.name "yourname"
+	2. Create SSH connection to your local machine and repo server
+		- ssh-keygen -t rsa -C "youremailaddress" // same on user.email, just press enter to all questions
+		- ssh-copy-id progitres@192.168.1.32 // copy SSH Key to repo server
+			- enter yes
+			- enter repo server password, SV will provide password
+
+B. Versioning your project using git repository
+	1. For new project (Two ways)
+		1. By CREATING empty git on your project folder
+			- git init // will initialize empty git
+			- git remote add origin progitres@192.168.1.32:/repofiles/projectfolder // will add remote url of repo server
+			- git add . // add all files
+			- git commit -m 'taskid' // commit all files added
+			- git push origin master // upload all files to repo server
+		2. By CLONING empty git from repo server
+			- git clone progitres@192.168.1.32:/repofiles/projectfolder
+			- git add . // add all files
+			- git commit -m 'taskid' // commit all files added
+			- git push origin master // upload all files to repo server
+	2. For existing project (Modifications)
+		//- git pull origin master // make your project folder up-to-date
+		- git status // check if you have modified files on your project folder
+		
+		If there is/are modified file(s):
+			- git add . // add all modified files
+			- git commit -m 'taskid' // commit all modified files
+			- git push origin master // upload all modified files to repo server
+		
+		To view all commits:
+			- git log
+		
+		To view file committed:
+			- git show commitid:filepath	
+			
+Note: 
+- For more information on git command visit https://git-scm.com/docs
+- use //fileserver as working copy of your project

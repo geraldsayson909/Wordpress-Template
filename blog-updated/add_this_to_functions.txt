@@ -1,0 +1,28 @@
+/** Start of SEO BLog Schema **/
+
+function get_blog_schema( $attss ) {
+
+  extract( shortcode_atts( array( 'id' => null, ), $attss ) );
+        $post_schema= get_post_meta( $id, 'Post Schema',true );
+
+  if ($post_schema == '') {
+      $block = '';
+    echo $block;
+  } else {
+      echo $post_schema;
+  }
+                        wp_reset_postdata();
+}
+
+add_shortcode( 'blog_schema', 'get_blog_schema' );
+
+/** End of SEO BLog Schema **/
+
+/** For Blog Image **/
+
+function filter_ptags_on_images($content){
+    return preg_replace('/<p>\s*(<a .>)?\s*(<img . \/>)\s*(<\/a>)?\s*<\/p>/iU', '\1\2\3', $content);
+}
+add_filter('the_content', 'filter_ptags_on_images');
+
+/** End For Blog Image **/

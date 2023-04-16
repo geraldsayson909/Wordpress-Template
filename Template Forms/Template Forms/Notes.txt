@@ -1,0 +1,18 @@
+<!-- WHEN USING CHKBOXVAL -->
+1) DO THIS:
+    foreach($_POST as $key => $value){
+        if($key == 'secode') continue;
+        elseif($key == 'submit') continue;
+        elseif($key == 'checkboxVal') continue; <!-- IMPORTANT PART TO ADD -->
+
+
+2) to call chkboxVal,
+ example:
+ $input->chkboxVal('xxxx NAME ATTRIBUTE xxxx',array('The Northern Lights', 'The Subtle Knife', 'The Amber Spyglass'),'xxxxx CLASS (dapat same sa NAME ATTRIBUTE) xxxxx','');
+
+3) to call checkboxValues function()
+    example:
+
+    checkboxValues('xxxx NAME ATTRIBUTE OF THE CHECBOXES');
+
+4) MAO RA TO.

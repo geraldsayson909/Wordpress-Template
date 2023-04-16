@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.main-wrap{width: 962px; margin: 0 auto; height: auto;}
+* {
+    box-sizing: border-box;
+}
+.header {
+	background-color: #c50017;
+	margin-top: 1px;
+}
+.header ul{
+	margin: 0;
+	padding: 20;
+}
+.header ul li {
+	list-style: none;
+	width: auto;
+	display: inline-block;
+}
+.header ul li a {
+	display: block; 
+	height: 50px; 
+	width: 125px;
+	color: white;
+	line-height: 45px;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+}
+.header ul li a:hover {
+	color:#fff; 
+	background:#000;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.yellow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.menu {
+    width: 30%;
+}
+.content {
+    width: 50%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 6px;
+	margin: 5px;
+    margin-bottom: 8px;
+    background-color: #f7bfd0;
+    color: black;
+}
+.menu h3 {
+	padding: 8px;
+	margin: 5px;
+    margin-bottom: 5px;
+    background-color: #f7bfd0;
+    color: black;
+}
+.menu li:hover {
+    background-color: #e2001a;;
+}
+.footer {
+    background-color: #c50017;
+    color: white;
+    padding: 15px;
+	margin-top: 15px;
+}
+.info {
+	border: 1px solid black;
+}
+.right {
+	width: 20%;
+	background-color: #f7dd71;
+	padding: 20px;
+	float: left;
+	margin-top: 15px;
+}
+.free {
+	width: 20%;
+	background-color: #f7dd71;
+	padding: 20px;
+	float: left;
+	margin-top: 15px;
+}
+.referral {
+	width: 20%;
+	background-color: #e70505  ;
+	padding: 2px;
+	float: left;
+	margin-top: 15px;
+	color: white;
+}
+.survey {
+	width: 20%;
+	background-color: #e70505  ;
+	padding: 2px;
+	float: left;
+	margin-top: 15px;
+	color: white;
+}
+
+.box ul{padding: 0; margin:0;}
+.box ul li{position:relative; list-style:none; margin:5px; padding-left:35px;}
+.box ul li:before{position:absolute; content:url('img/arrow.png'); left:0; top: 0;}
+</style>
+</head>
+<body>
+<div class="main-wrap">
+<h4 align="right"><img src="img\logo.png" img align="left" >For more inquiries, call us:</h4>
+<h1 align="right">281-499-5901</h1>
+<h3 align="right">Every Healing Begins with a Divine Touch</h3>
+
+<div class="header">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">SERVICES</a></li>
+			<li><a href="#">APPOINTMENT</a></li>
+			<li><a href="#">EMPLOYMENT</a></li>
+			<li><a href="#">RESOURCES</a></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>	
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+	<div class="box">
+		<ul>
+		<h3>SERVICES OFFERED</h3>
+		<li>Nursing Services</li>
+		<li>Home Health Aide Service</li>
+		<li>Physical Therapy</li>
+		<li>Speech Therapy</li>
+		<li>Occupational Therapy</li>
+		<li>Medical Social Services</li>
+		<li>Nutritional Counseling</li>
+		<li>Medical Supplies</li>
+		<li>Primary Home Care Service</li>
+	</div>
+		<div style="info">
+		<h2> Contact </h2>
+		<h2>INFORMATION </h2>
+		<p> 822 Buckeye Place </p>
+		<p> Missouri City, Texas 77459 </p>
+		<p><u> View Map & Directions>> </u></p>
+		<p>Phone:281-969-5391
+				281-499-5901
+			Fax:281-499-8882
+		<p>divinetouchhomehealth @yahoo.com
+		Varghese.finneygmail.com</p>
+		</div>
+		</ul>
+  </div>
+
+  <div class="column content">
+    <h2>Welcome to</h2>
+	<h1>Divine Touch Home Health, LLC</h1>
+    <p>These texts are temporary, dummy text follows. Lorem ipsum dolor sit amet, consecteuter adildjf elt. Aennean commodoe lidgula eget dolor. Cms sociis natoque penatibus et magnis dis parturient montes, nascetue ridiculus mus. </p>
+	<p> Divine Touch Home Health, LLC, donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla condequat massa quis enim.</p>
+	<br></br>
+    <p><img src="img\check.png">	Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Donec sodales sagitis magna.</p>
+	<p><img src="img\check.png">	Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Donec sodales sagitis magna. </p>
+	<p>Etiam raecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Donec sodales sagittis magna.</p>
+	
+	 <br> </br>
+		<img src="img\chap.png" hspace="5">
+		<img src="img\cms.png" hspace="5"> 
+  </div>
+	<div class="yellow">
+		<div class="column right">
+			<h5>REASONS </h5>
+			<h5>WHY WE CARE</h5>
+			<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a.</p>
+			<button type="button" onclick="alert('Thanks!')">CLICK HERE >></button>
+		</div>
+		<div class="column free">
+			<h3>FREE CONSULTATION<img src="img\heart2.png"></h3>
+			<p>Etiam raecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed impsum. Nam quam nunc.</p>
+			<button type="button" onclick="alert('Thanks!')">CLICK HERE >></button>
+		</div>
+		<div class="column referral">
+			<center><h3><img src="img\ref.png"> Send your Referrals </h3></center>
+		</div>
+		<div class="survey">
+			<center><h3><img src="img\sur.png"> Client Satisfaction Survey</h3></center>
+		</div>
+	</div>
+	
+		
+<div class="footer">
+ <center> <p>Home | About Us | Services | Appointment | Employment | Resources | Contact Us</p>
+  <p> @ Copyright 2012 * Divine Touch Home Health, LLC * Web Design: Proweaver </center>
+ </div>
+</div>
+
+<br/><br/>
+<div class="box">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+	</ul>
+</div>
+</body>
+</html>
+
+===================
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.main-wrap{width: 962px; margin: 0 auto; height: auto;}
+* {
+    box-sizing: border-box;
+}
+.header {
+	background-color: #c50017;
+	margin-top: 1px;
+}
+.header ul{
+	margin: 0;
+	padding: 0;
+}
+.header ul li {
+	list-style: none;
+	width: auto;
+	display: inline-block;
+}
+.header ul li a {
+	display: block; 
+	height: 50px; 
+	width: 125px;
+	color: white;
+	line-height: 45px;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+}
+.header ul li a:hover {
+	color:#fff; 
+	background:#000;
+}
+.column {
+    float: left;
+    padding: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.yellow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.menu {
+    width: 245px;
+	margin-top: 15px;
+}
+.content {
+    width: 472px;
+	padding: 10px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+}
+.menu li {
+    padding: 6px;
+	margin: 0;
+    margin-bottom: 5px;
+	margin-top: 10px;
+    background-color: #f7bfd0;
+    color: black;
+}
+.menu h3 {
+	padding: 6px;
+	margin: 0;
+    margin-bottom: 5px;
+    background-color: #f7bfd0;
+    color: black;
+}
+.menu li:hover {
+    background-color: #e2001a;
+}
+.footer {
+    background-color: #c50017;
+    color: white;
+    padding: 15px;
+	margin-top: 15px;
+}
+.info {
+	width: 245px;
+	border: 1px solid blue;
+}
+.right {
+	width: 245px;
+	background-color: #f7dd71;
+	padding: 20px;
+	float: left;
+	margin-top: 15px;
+}
+.right h4 {
+	padding: 0;
+	margin: 0;
+}
+.right h4{
+	position:relative; 
+	list-style:none; 
+	margin:5px; 
+}
+.right h4::before {
+	position:absolute; 
+	content:url('img/heart.png'); 
+	left:0; 
+	top: 0;
+}
+.right h5 {
+	list-style-type: none;
+	padding: 4px;
+	margin: 1px;
+    margin-bottom: 2px;
+    background-color: #a60000;
+    color: white;
+}
+.right h5:hover {
+	color:#fff; 
+	background:#000;
+}
+.free {
+	width: 245px;
+	background-color: #f7dd71;
+	padding: 20px;
+	float: left;
+	margin-top: 10px;
+}
+.free h4 {
+	padding: 0;
+	margin: 0;
+}
+.free h4{
+	position:relative; 
+	list-style:none; 
+	margin:5px; 
+}
+.free h4::before {
+	position:absolute; 
+	content:url('img/heart2.png'); 
+	left:0; 
+	top: 0;
+}
+.free h5 {
+	list-style-type: none;
+	padding: 4px;
+	margin: 1px;
+    margin-bottom: 2px;
+    background-color: #a60000;
+    color: white;
+}
+.free h5:hover {
+	color:#fff; 
+	background:#000;
+}
+.referral {
+	width: 245px;
+	background-color: #e70505  ;
+	padding: 3px;
+	float: left;
+	margin-top: 10px;
+	color: white;
+}
+.referral ul {
+	padding: 0; 
+	margin:0;
+}
+.referral ul li {
+	position:relative; 
+	list-style:none; 
+	margin:10px; 
+	padding-left:35px;
+}
+.referral ul li:before {
+	position:absolute; 
+	content:url('img/ref.png'); 
+	left:0; 
+	top: 0;
+} 
+.survey {
+	width: 245px;
+	background-color: #e70505  ;
+	padding: 2px;
+	float: left;
+	margin-top: 10px;
+	color: white;
+}
+.survey ul {
+	padding: 0; 
+	margin:0;
+}
+.survey ul li {
+	position:relative; 
+	list-style:none; 
+	margin:10px; 
+	padding-left:35px;
+}
+.survey ul li:before {
+	position:absolute; 
+	content:url('img/sur.png'); 
+	left:0; 
+	top: 0;
+} 
+.box ul {
+	padding: 0; 
+	margin:0;
+}
+.box ul li {
+	position:relative; 
+	list-style:none; 
+	margin:5px; 
+	padding-left:35px;
+}
+.box ul li:before {
+	position:absolute; 
+	content:url('img/arrow.png'); 
+	left:0; 
+	top: 0;
+	}
+.check ul {
+	padding: 0; 
+	margin:0;
+}
+.check ul li {
+	position:relative; 
+	list-style:none; 
+	margin:5px; 
+	padding-left:35px;
+}
+.check ul li:before {
+	position:absolute; 
+	content:url('img/check.png'); 
+	left:0; 
+	top: 0;
+}
+	
+	
+
+</style>
+</head>
+<body>
+<div class="main-wrap">
+<h4 align="right"><img src="img\logo.png" img align="left" >For more inquiries, call us:</h4>
+<h1 align="right">281-499-5901</h1>
+<h3 align="right">Every Healing Begins with a Divine Touch</h3>
+
+<div class="header">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">SERVICES</a></li>
+			<li><a href="#">APPOINTMENT</a></li>
+			<li><a href="#">EMPLOYMENT</a></li>
+			<li><a href="#">RESOURCES</a></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>	
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+	<div class="box">
+		<ul>
+		<h3><center>SERVICES OFFERED</center></h3>
+		<li>Nursing Services</li>
+		<li>Home Health Aide Service</li>
+		<li>Physical Therapy</li>
+		<li>Speech Therapy</li>
+		<li>Occupational Therapy</li>
+		<li>Medical Social Services</li>
+		<li>Nutritional Counseling</li>
+		<li>Medical Supplies</li>
+		<li>Primary Home Care Service</li>
+	</div>
+		<div style="info">
+		<h2> Contact </h2>
+		<h2>INFORMATION </h2>
+		<p> 822 Buckeye Place </p>
+		<p> Missouri City, Texas 77459 </p>
+		<p><u> View Map & Directions>> </u></p>
+		<p>Phone:281-969-5391
+				281-499-5901
+			Fax:281-499-8882
+		<p>divinetouchhomehealth @yahoo.com
+		Varghese.finneygmail.com</p>
+		</div>
+		</ul>
+  </div>
+
+  <div class="column content">
+	<div class="check">
+    <h2>Welcome to</h2>
+	<h1>Divine Touch Home Health, LLC</h1>
+    <p>These texts are temporary, dummy text follows. Lorem ipsum dolor sit amet, consecteuter adildjf elt. Aennean commodoe lidgula eget dolor. Cms sociis natoque penatibus et magnis dis parturient montes, nascetue ridiculus mus. </p>
+	<p> Divine Touch Home Health, LLC, donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla condequat massa quis enim.</p>
+	<br></br>
+	<ul>
+		<li>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Donec sodales sagitis magna.</li>
+		<li>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Donec sodales sagitis magna. </li>
+	</ul>
+	<p>Etiam raecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Donec sodales sagittis magna.</p>
+	</div>
+	 <br> </br>
+		<img src="img\chap.png" hspace="5">
+		<img src="img\cms.png" hspace="5"> 
+  </div>
+	<div class="yellow">
+		<div class="column right">
+			<h4 align="right"><b>REASONS <li>WHY WE </li><li>CARE</li></b></h4>
+			<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a.</p>
+			<h5>CLICK HERE >></h5>
+			
+		</div>
+		<div class="column free">
+			<h4 align ="right"><b><br>FREE </br><li>CONSULTATION</b></li></h4>
+			<p>Etiam raecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed impsum. Nam quam nunc.</p>
+			<h5>CLICK HERE >></h5>
+		</div>
+		<div class="column referral">
+			<ul>
+				<li> Send your Referrals</li>
+			</ul>	
+		</div>
+		<div class="survey">
+			<ul>
+				<li>Client Satisfaction Survey</li>
+			</ul>
+		</div>
+	</div>
+	
+		
+<div class="footer">
+ <center> <p>Home | About Us | Services | Appointment | Employment | Resources | Contact Us</p>
+  <p> @ Copyright 2012 * Divine Touch Home Health, LLC * Web Design: Proweaver </center>
+ </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+}
+.menu li {
+    padding: 6px;
+	margin: 0;
+    margin-bottom: 5px;
+	margin-top: 10px;
+    background-color: #f7bfd0;
+    color: black;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

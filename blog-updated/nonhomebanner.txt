@@ -1,0 +1,11 @@
+    <figure>
+      <?php if(is_home() && is_author() && is_category() && is_tag() && is_single()) { ?>
+            <?php if (has_post_thumbnail() ) {?>
+              <?php the_post_thumbnail('full');?>
+            <?php }else{ ?>
+              <img src="<?php bloginfo('template_url'); ?>/images/slider/nonhome_234b90ca1f07e8611e241808fdef73be9c794e6a.jpg" alt="new jersey road name">
+              <?php } ?>
+            <?php } else { ?>
+          <img src="<?php bloginfo('template_url'); ?>/images/slider/nonhome_234b90ca1f07e8611e241808fdef73be9c794e6a.jpg" alt="new jersey road name">
+        <?php } ?>
+  </figure>

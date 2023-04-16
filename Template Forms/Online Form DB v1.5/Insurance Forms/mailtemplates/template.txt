@@ -1,0 +1,10 @@
+Hi Admin,
+
+You have a new message in your inbox.
+
+Click the link below.
+
+{link}
+
+_______________________________________________________
+{company}

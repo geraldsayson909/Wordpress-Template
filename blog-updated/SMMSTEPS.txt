@@ -1,0 +1,21 @@
+----------------------FUNCTIONS----------------------------------------
+/** End of WordPress Team Used Functions **/
+function exclude_category($query) {
+if ( $query->is_home() ) {
+$query->set('cat', '-5');
+}
+return $query;
+}
+add_filter('pre_get_posts', 'exclude_category');
+
+-------------------------------------------------------------
+
+-------------------LOOP SINGLE--------------------------------------------
+loop-single.php 
+» i-add after sa endif  sa get_the_author_meta
+
+<ul class="social_buttons">
+  <li><a href="http://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=<?php the_permalink(); ?>" target="_blank"><figure><img src="<?php bloginfo('template_url');?>/social_template/twitter.png" alt="twitter"/></figure></a></li>
+  <li><a href="http://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=<?php the_permalink(); ?>" target="_blank"><figure><img src="<?php bloginfo('template_url');?>/social_template/facebook.png" alt="facebook"/></figure></a></li>
+</ul>
+---------------------------------------------------------------

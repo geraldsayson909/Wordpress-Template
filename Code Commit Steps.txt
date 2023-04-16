@@ -1,0 +1,57 @@
+--- CodeCommit Guide ---
+A. Remove current local machine git config
+	1. Visit Credentials Manager in your local machine (desktop/laptop)
+	2. Click Windows Credentials
+	3. Remove all or current credentials under GIT
+
+B. Set up your new local machine for git config and ssh connection (One time process only)
+	1. Check your username and email if configured correctly
+ 		- git config --list
+	2. Setting up git config (For author or Identification of user)
+		- git config --global user.email "youremailaddress"
+		- git config --global user.name "yourname"
+
+HTTPS Credentials
+Use this to create SSH connection to your local machine and repo server for first time user in first cloning of folder:
+Username: proweavercodecom-at-483412306637
+Password: hO65g30yldvqfRFUIcMkgEVyEtnJRYtxw2Ipf5MZdwY=
+
+C. Versioning your project using git repository
+	1. For Cloning project	
+	Note: Before cloning any folders, make sure to create a specific folder for all your cloned files in your local machine.
+		By CLONING empty git from repo server (see credentials above)
+			- git clone 'https://git-codecommit.us-east-2.amazonaws.com/v1/repos/Folder_Name'
+			- git add . // add all files
+			- git commit -m 'taskid' // commit all files added
+			- git push origin master // upload all files to repo server
+	2. For existing project (Modifications)
+		//- git pull origin master // make your project folder up-to-date
+		- git status // check if you have modified files on your project folder
+		
+		If there is/are modified file(s):
+			- git add . // add all modified files
+			- git commit -m 'taskid' // commit all modified files
+			- git push origin master // upload all modified files to repo server
+
+
+
+File Path:
+https://git-codecommit.us-east-2.amazonaws.com/v1/repos/foldername
+git clone https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/foldername
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/foldername
+https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/foldername
+git@54.255.101.170:foldername.git
+
+prowvrcodecom1-at-483412306637
+bVFVUUirMhJQnvck3h+0jCgCn+AlbRj7OHUOBWn3m4I=
+
+
+step 1 : clone the repo anywhere then mag cr8 nana og folder diba? then exit the git after cloning 
+
+next : git bash inside the repo where makita to nimong ".git" nga folder nga naka hidden
+
+then e git status para safe
+
+then if ikaw nag una empty jud na diba so sa ".git"  nga folder ara nimo e copy ang imong e add nga mga files
+
+then after copying sa files adto naka mag git add .

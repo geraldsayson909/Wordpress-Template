@@ -1,0 +1,34 @@
+dbname - arlingtonpharmacy
+
+wordpress:
+site name- company name
+passw - ArlingtonPharmacy*#2019
+
+username-bokillc
+-BokiLlc()2019
+bookkeeping-services-
+
+all external files like images (jpg)
+-<?php bloginfo('template_url');?>/
+
+logo
+-<?php echo get_bloginfo('name');?>
+
+
+<?php get_template_part( 'loop', 'page' ); ?>
+
+Code for adding form - [form src=""]
+To Access forms - \\192.168.1.14\Template Forms\_OFFICIAL Proweaver Template Forms\Online Form DB v2.0\Template Forms\
+
+form activation
+\\192.168.1.14\Wordpress\FDG - Templated Task\Online form Activation\Redirect Activation
+
+
+--------------------------------------------------------------------
+BrightHeartHomeCare()2019
+
+permalink- home-care-
+
+pages that have  forms
+
+Send us a message

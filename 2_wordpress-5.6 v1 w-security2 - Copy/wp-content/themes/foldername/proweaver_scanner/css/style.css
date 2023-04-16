@@ -1,0 +1,21 @@
+body {background: #ececec; color: #222; font-family: 'Roboto', sans-serif; }
+.wrapper {max-width: 1000px; margin: 0 auto; position: relative}
+main {margin-bottom: 30px}
+main h1{margin-top: 50px}
+main section {background: #fff; border-radius: 20px; padding: 30px 20px; box-shadow: 1px 8px 26px -11px #000}
+.add_to_whitelist {color: #fff; background: #464646; padding: 5px 10px; position: absolute; right: 5px; top: 5px; text-decoration: none; font-size: 13px}
+.OK {display: none}
+.for_whitelist {position: absolute; z-index: -1}
+.scanCont {margin: 10px 0; padding: 15px}
+.scanCont:hover {background: #e3e3e3;}
+.scan_summary {margin: 30px 0; padding-left: 15px; border: 1px #bebebe solid; background: #f7f7f7; font-size: 14px;}
+.scan_summary p {font-weight: bold;}
+.scan_summary p:nth-child(1) span{color: green}
+.scan_summary p:nth-child(2) span{color: green}
+.scan_summary p:nth-child(3) span{color: red}
+main small {float: right}
+.filepath {width: 81%; display: inline-block;}
+.OK:before {content: "\f071"; font-family: FontAwesome; font-size: 20px; color: red; margin-right: 5px; display: block; }
+.WHITELIST:before {content: "\f071  Whitelist "; font-family: FontAwesome; font-size: 20px; color: #ffa200; margin-right: 5px; display: block; }
+.ERROR:before {content: "\f12a  Malware Found "; font-family: FontAwesome; font-size: 20px; color: red; margin-right: 5px; display: block; }
+.add_to_whitelist:hover {background: #b70000;}

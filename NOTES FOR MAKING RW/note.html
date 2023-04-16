@@ -1,0 +1,341 @@
+- mga links na nako master basin magamit nimo bah,
+
+https://www.webfx.com/web-design/hex-to-rgb/
+
+https://www.cssmatic.com/box-shadow
+
+https://www.cssmatic.com/gradient-generator#'\-moz\-linear\-gradient\%28left\%2C\%20rgba\%28248\%2C80\%2C50\%2C1\%29\%200\%25\%2C\%20rgba\%28241\%2C111\%2C92\%2C1\%29\%2050\%25\%2C\%20rgba\%28246\%2C41\%2C12\%2C1\%29\%2051\%25\%2C\%20rgba\%28240\%2C47\%2C23\%2C1\%29\%2071\%25\%2C\%20rgba\%28231\%2C56\%2C39\%2C1\%29\%20100\%25\%29\%3B'
+
+https://raquo.net/
+$.fn.textStroke = function(r, colour) {
+
+		var rules = [];
+		var steps = 24;
+
+		for (var t=0;t<=(2*Math.PI);t+=(2*Math.PI)/steps){
+
+		    var x = r*Math.cos(t);
+		    var y = r*Math.sin(t);
+		    x = (Math.abs(x) < 1e-6) ? '0' : x.toString();
+
+		    y = (Math.abs(y) < 1e-6) ? '0' : y.toString();
+
+		    rules.push( x + "px " + y + "px 0px " + colour );
+
+		    }
+
+		this.css('textShadow',rules.join());
+
+		};
+
+		$(function(){
+		    $('.bnr_info h2').textStroke(3,'#fff');
+	})
+
+function swap_this(){
+		if(window_width <= 800){
+			$('.main_logo').insertAfter('.logo_wrap');
+			$('#nav_area').insertBefore('header');
+
+		} else if (window_width <= 1010){
+			$('.main_logo').insertBefore('.header_info');
+			$('#nav_area').insertAfter('header');
+
+			} else {
+			$('.main_logo').insertBefore('.header_info');
+			$('#nav_area').insertBefore('header');
+
+		}
+	}
+
+FIXED LOGO and PAGE_NAV
+
+	if(window_width > 1024) {
+			if ( windowScroll >= ( 57 )) {
+				$(".main_logo").addClass("fixed")
+				$(".page_nav").addClass("fixed")
+			} else {
+				$(".main_logo").removeClass("fixed")
+				$(".page_nav").removeClass("fixed")
+			}
+	} else {
+				$(".main_logo").removeClass("fixed")
+				$(".page_nav").removeClass("fixed")
+	}
+
+	if(window_width > 1024) {
+		$('.slider').css('top', windowScroll * .3);
+	} else {
+		$('.slider').css('top', 0);
+	}
+
+
+PARALLAX
+
+ $('.slider').css('top', windowScroll * .15);
+- IF SLIDER IMONG E PARALLAX MASTER DAPAT SI SLIDER NAAY POSITON RELATIVE NEG <1024 E POSITION STATIC NALANG ANG SLIDER PARA DI NANI MOGANA, DIPINDI SA LAY OUT JAPON MASTER
+
+
+
+$('#bottom1').css('background-position-y', -500 - (windowScroll * -.23) + "px");
+- IF BACKGROUND IMONG GUSTO E PARALLAX MASTER SA PLUGINS LANG NI E BUTANG MASTER
+
+(DAPAT SOLOD NI NIMO     "     $(window).scroll(function(){   "  ANI NGA FUNCTION SA PLUGINS)  OR UBOS ANI NGA CODE     if (windowScroll > (webHeight * 0.5) && window_width <= 600 ) {
+            $(".back_top").fadeIn();
+        } else{
+            $(".back_top").fadeOut()
+        };
+
+
+
+        mga file path master
+
+        \\192.168.1.15\Stock Photos\OFFICIAL DREAMSTIME PHOTOS - 2018\NON-HOME PAGE IMAGES
+        - Non-home banner images
+
+        \\192.168.1.15\Design Team\FOR PAGES\DONE
+        - layout
+
+        \\192.168.1.14\Template Forms\_OFFICIAL Proweaver Template Forms\Online Form DB v2.0\Template Forms
+        - mga forms
+
+        \\192.168.1.15\Design Team\RESOURCES\FONTS
+        - mga fonts nga wala sa google fonts
+
+        \\192.168.1.14\Wordpress\Z - Others\_FOR 3D CANDIDATE
+        - mga 3D design ninyu master mga actual nga 3d pwedi mo mo pass ug entry puhon
+
+        \\freenas\Music
+        - pam pa chill music master
+
+        C:\Users\Production\AppData\Local\Temp
+        - sa file zilla master neg download nay temp file
+
+
+
+min-height: 62px;
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: center;
+
+flex-direction: column;
+
+
+
+TRY NI NGA CODE SA IMONG MIDDLE MASTER KANANG H2 NGA WALA NA ALIGN BA KAY ANG H2 NI NAOG ANG SPAN KAY 2 WORDS NA NYA ANG 1 WORD WALA NA GA TOPONG
+
+
+
+<a href="[contenturl type='siteurl' page='xxx']">xxx</a>
+
+
+Good Day guys mai ni ang code incase taas nag email address then maputol sya inig responsive
+
+e add rani ninyo sya
+
+==================================================================================================
+
+overflow-wrap: break-word;word-wrap: break-word;-webkit-hyphens: auto;-ms-hyphens: auto;-moz-hyphens: auto;hyphens: auto;
+
+==================================================================================================
+
+
+
+color: #191919;
+   background: linear-gradient(to top, #eee 99%, #fff -93%);
+       background-clip: border-box;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+
+
+
+
+
+
+var btmImg = $('#bottom2').offset().top;
+if (btmImg <= windowScroll){
+                   $('#bottom2').addClass('fixed');
+           } else {
+                   $('#bottom2').removeClass('fixed');
+           }
+
+
+					 if ($('#main_holder').length >= 1 && window_width >= 1025) {
+					 		var fixbtm = $('#main_holder').offset().top;
+					 		if (fixbtm <= windowScroll){
+					 				$('.main_parallax').addClass('main_fixed');
+					 		} else {
+					 						$('.main_parallax').removeClass('main_fixed');
+					 				}
+					 	}
+
+					 	if ($('#bottom1').length >= 1 && window_width >= 1025) {
+					 		var fixbtm = $('#bottom1').offset().top;
+					 		if (fixbtm <= windowScroll){
+					 				$('.btm1_parallax').addClass('btm1_fixed');
+					 		} else {
+					 						$('.btm1_parallax').removeClass('btm1_fixed');
+					 				}
+					 	}
+
+
+
+
+
+
+
+if(navigator.userAgent.match(/Trident\/7\./)) { // if IE
+                           $('body').on("mousewheel", function () {
+                                   event.preventDefault();
+
+                                   var wheelDelta = event.wheelDelta;
+
+                                   var currentScrollPosition = window.pageYOffset;
+                                   window.scrollTo(0, currentScrollPosition - wheelDelta);
+                           });
+                   }
+
+
+
+
+
+
+
+                   RECOMMIT GIT
+
+                   <br><br>
+                      (Update the files)<br>
+
+                       - first to download the updated files
+                      -  then git add . (to add your added files)
+                           - git commit --amend -m '266499'
+                       - git push -f
+                   <br><br>
+                    (Update name) <br>
+                           - git commit --amend -m '266499 - 3D'
+                           - git push -f
+
+
+
+                           <div class="slider">
+                                   <video autoplay="" loop="" controls="">
+                                     <source src="https://web4.proweaverlinks.com/imeda/wp-content/themes/imeda/videos/compile.mp4" type="video/mp4">
+                                     <source src="https://web4.proweaverlinks.com/imeda/wp-content/themes/imeda/videos/compile.ogv" type="video/ogv">
+                                     Your browser does not support the video tag.
+                                    </video>
+                                 </div>
+
+
+
+
+
+STYLE.CSS
+.dummyHeight{height:65px;}
+/*nav*/
+#nav_area{}
+.fixbefore{position: relative;z-index: 60;}
+.fix{position: fixed;left: 0;right: 0;z-index: 100;top:0;}
+
+
+PLUGINS.JS
+var navFixed = $('header').offset().top;
+
+ if (windowScroll > navFixed && window_width > 1010){
+ $('header').addClass('fixed');
+ } else {
+ $('header').removeClass('fixed');
+ }
+
+
+
+
+
+
+
+
+ Media
+
+ @media only screen
+ and (min-width : 1011px) {
+
+ .parent.fixed { height: 143px;  position: fixed;     width: 100%; z-index: 999;   -webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;     -moz-transition: all 0.3s ease-in-out; background:rgba(0,0,0,.5);}
+ .parent.fixed .main_logo {padding: 10px 0 0 0; }
+ .parent.fixed .main_logo img{max-width: 185px; -webkit-transition: all 0.3s ease;  transition: all 0.3s ease;  -moz-transition: all 0.3s ease;}
+ .parent.fixed .social_media {display:none;}
+ .parent.fixed .page_nav {margin-top: 39px;}
+ .parent.fixed .book_btn { top: 42px; }
+ .parent.fixed .page_nav{-webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;     -moz-transition: all 0.3s ease-in-out;}
+ }
+
+ PLUGINS
+ add this below function window scroll
+
+
+         if (windowScroll > 1){
+                 $('.parent').addClass('fixed');
+                     $('.dummyHeight').addClass('fixedHeight');
+             } else {
+                 $('.parent').removeClass('fixed');
+                 $('.dummyHeight').removeClass('fixedHeight');
+             }
+
+
+
+
+						 function swap_this(){
+						 		if(window_width <= 800){
+						 			$('.main_logo').insertAfter('.logo_wrap');
+						 			$('#nav_area').insertBefore('header');
+
+						 		} else if (window_width <= 1010){
+						 			$('.main_logo').insertBefore('.header_info');
+						 			$('#nav_area').insertAfter('header');
+
+						 			} else {
+						 			$('.main_logo').insertBefore('.header_info');
+						 			$('#nav_area').insertBefore('header');
+
+						 		}
+						 	}
+
+	$(window).scroll(function(){
+	var headerHolder = $(".page_nav");
+	var banner = $("#banner");
+
+	var windowScroll = $(this).scrollTop();
+
+	if ($(this).scrollTop() >= 31) {
+		headerHolder.addClass('header_holder_fixed');
+		banner.addClass('mt_183');
+	} else {
+		headerHolder.removeClass('header_holder_fixed');
+		banner.removeClass('mt_183');
+	}
+
+
+	var window_height = $(window).height();
+	var img1Top = $('.btm2_img2').offset().top;
+	if(img1Top <= windowScroll + window_height) {
+	var doMath 		= ((windowScroll + window_height) - img1Top) * 0.10;
+	var translate_1 = 80 - doMath;
+	var opa 		= doMath * 0.015;
+		$('.btm2_img2').css({"-webkit-transform":"scale("+(opa > 1 ? 1: opa)+")","top":"-"+ translate_1 -"%", "opacity": (opa > 1 ? 1 : opa)});
+	}
+
+
+
+	<!--GET HIGHEST HEIGHT OF THE ELEMENT-->
+
+var maxHeight = 0;
+$(".middle_boxes section h2").each(function(){
+   if ($(this).height() > maxHeight) {
+		 maxHeight = $(this).height();
+	 } else if (window_width < 601){
+		 $(".middle_boxes section h2").height(auto);
+	 }
+});
+$(".middle_boxes section h2").height(maxHeight);

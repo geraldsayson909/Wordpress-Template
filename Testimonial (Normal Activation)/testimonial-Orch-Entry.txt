@@ -1,0 +1,16 @@
+<!-- page title here -->
+- added testimonial feature
+<!-- page link here -->
+
+To approve pending testimonials:
+
+01. Login as administrator using the access below:    
+    Login Link: <!-- login link here -->
+    Username: <!-- username -->
+    Password: !-- password -->
+02. Click "Comments" tab on dashboard.
+03. Select the pending comment(s) you want to approve.
+04. Hover on your chosen pending comment(s), click on the "Approve" link.
+05. Refresh the testimonial page to view the approved  comment(s).
+
+Once done, hover 'Howdy, <!-- username -->' on the right portion of your dashboard area and click the 'Log Out' button to avoid unnecessary changes.

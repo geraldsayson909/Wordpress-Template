@@ -1,0 +1,15 @@
+All Pages
+- activated "Send Us a Message" form on footer area
+http://www.destinedhomecare.com/
+
+All online forms submitted through your website will be stored in your Online Forms Database Panel. Please see below for your access:
+
+http://www.destinedhomecare.com/onlineforms/login-page.php
+Username: usernameniya
+Password: passwordniya
+
+Backup file path:
+xxxxxxxxxxxxx
+
+Other backup file path:
+xxxxxxxxxxxxx

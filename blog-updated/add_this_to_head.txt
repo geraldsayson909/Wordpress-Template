@@ -1,0 +1,7 @@
+<?php if(is_home() || is_author() || is_category() || is_tag()){ ?>
+<link rel="stylesheet" href="<?php bloginfo("template_url") ?>/css/blog-page.css">
+<?php }?>
+
+<?php if(is_single()) { ?>
+<link rel="stylesheet" href="<?php bloginfo("template_url") ?>/css/blog-single.css">
+<?php }?>

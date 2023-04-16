@@ -1,0 +1,52 @@
+/*Clearfix: contain floats*/
+.clearfix {clear:both;overflow:hidden;}
+
+/*Drop Down: Adds a nth-level drop down*/
+.dropdown ul li {position:relative;}.dropdown ul ul {display:none;margin:0;padding:0;position:absolute;top:100%;left:0;z-index: 999;}.dropdown ul ul ul {left:100%;top:0;}.dropdown ul ul li{display:block;width:100%;}.dropdown ul ul li a {background:#fff;width:200px;margin:auto;height:auto;display: block;padding:10px 0;text-indent:15px;border-bottom:1px solid #ccc;}.dropdown ul li:hover > ul{display:block;visibility:visible;}
+
+/*Float*/
+.float-left{float:left;}.float-right{float:right;}
+
+/*Text Alignment*/
+.align{display:inline-block;vertical-align:top;}
+.align-left{text-align:left;}.align-right{text-align:right;}.align-center{text-align:center;}.align-justify{text-align:justify;}
+
+/*Thumbnail*/
+.thumb-left { float: left; margin: 10px 0px 10px 10px; }
+.thumb-right { float: right; margin: 10px 0px 10px 10px; }
+
+/*Border Radius*/
+.br10 { border-radius: 10px; 
+		-webkit-border-radius: 10px; 
+		-moz-border-radius: 10px; 
+		-o-border-radius: 10px;
+	}
+
+.br5 { border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		-moz-border-radius:5px; 
+		-o-border-radius: 5px;
+}
+
+.br15 { border-radius: 15px; 
+		-webkit-border-radius: 15px; 
+		-moz-border-radius:15px; 
+		-o-border-radius: 15px;
+}
+.br20 { border-radius: 20px; 
+		-webkit-border-radius: 20px; 
+		-moz-border-radius:20px; 
+		-o-border-radius: 20px;
+}
+
+/*Texts*/
+.bold { font-weight: bold }
+.italic { font-style: italic }
+.align-center { text-align: center }
+.align-left { text-align: left }
+.align-right { text-align: right }
+
+
+
+
+

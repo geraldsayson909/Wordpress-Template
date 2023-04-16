@@ -1,0 +1,29 @@
+Screenshots:
+1. Blog page nga wala naka login ang admin with pagination 
+2. Blog page nga naka login ang admin with pagination
+3. Blog post nga wala naka login ang admin with sample comment w/ required fields
+4. Blog post nga naka login ang admin with sample comment
+5. Author page with pagination
+6. Category page with pagination
+7. Tag page with pagination
+8. Blog page mobile view
+9. Blog post with commment sa mobile view
+10. Search page
+11. Home Page
+12. Blog page nga naay duha ka blog posts
+13. Blog page nga naay duha ka blog posts naka login ang admin
+
+
+1.Blog_Page.png
+2.Blog_Page_Admin.png
+3.Blog_Post_Comment.png
+4.Blog_Post_Comment_Admin.png
+5.Author_Page.png
+6.Category_Page.png
+7.Tag_Page.png
+8.Blog_Mobile.png
+9.Post_Mobile.png
+10.Search.png
+11.Homepage.png
+12.Blog_page_two_posts.png
+13.Blog_page_two_posts_admin.png
